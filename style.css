@@ -123,7 +123,6 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -140,7 +139,6 @@ a:hover {
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
 .d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
@@ -151,6 +149,10 @@ a:hover {
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
+}
+
+.d-bloc a:hover .icon-md{
+    color: #272723
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -651,7 +653,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #1A1A18!important;
 }
 
 .container {
@@ -692,7 +694,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -713,7 +715,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #1a1a18!important;
 }
 
 .med-width-whitespace {
@@ -723,11 +725,11 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #1a1a18!important;
 }
 
 h4 {
-    color: #333333!important;
+    color: #1a1a18!important;
 }
 
 .icons {
@@ -772,6 +774,7 @@ h4 {
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
+    
 }
 
 .tc-white {
@@ -780,12 +783,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #1a1a18;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #1a1a18!important;
 }
 
 .ltc-white {
