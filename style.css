@@ -653,7 +653,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #1A1A18!important;
+    color: #1A1A18;
 }
 
 .container {
@@ -715,7 +715,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #1a1a18!important;
+    color: #1a1a18;
 }
 
 .med-width-whitespace {
@@ -725,11 +725,11 @@ h3 {
 }
 
 h1 {
-    color: #1a1a18!important;
+    color: #1a1a18;
 }
 
 h4 {
-    color: #1a1a18!important;
+    color: #1a1a18;
 }
 
 .icons {
@@ -777,14 +777,26 @@ h4 {
     
 }
 
+.tc-white {
+    color: #F3976C;
+}
+
+#bloc-6 .tc-white{
+    color: #1a1a18;
+}
+
+h1 .hero-bloc-text{
+    color: #1a1a18;
+}
+
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #1a1a18;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #1a1a18!important;
+    background: #c27956;
+    color: #1a1a18;
 }
 
 .ltc-white {
