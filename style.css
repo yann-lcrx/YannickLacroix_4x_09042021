@@ -1059,3 +1059,7 @@ h1 .hero-bloc-text{
 strong{
     font-size: 18px;
 }
+
+footer a{
+    text-decoration: underline;
+}
