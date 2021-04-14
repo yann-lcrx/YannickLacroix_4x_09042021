@@ -1407,13 +1407,19 @@ textarea {
 
 a {
     color: #337ab7;
-    text-decoration: none
+    text-decoration: none;
+    border-radius: 10px;
 }
 
 a:focus,
 a:hover {
     color: #23527c;
-    text-decoration: underline
+    text-decoration: underline;
+    border: 1px solid #23527c;
+}
+
+footer a:hover, footer a:focus {
+    border: 0px
 }
 
 a:focus {
@@ -3683,7 +3689,8 @@ textarea.input-lg {
 .btn:focus {
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px
+    outline-offset: -2px;
+    border: 3px solid #364577
 }
 
 .btn.focus,
