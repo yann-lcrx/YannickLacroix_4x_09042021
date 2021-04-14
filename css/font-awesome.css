@@ -20,6 +20,11 @@
     -moz-osx-font-smoothing: grayscale
 }
 
+a.social:hover > .fa, a.social:focus > .fa{
+    transform: scale(1.25);
+    transition: transform 100ms ease-in-out;
+}
+
 .fa-lg {
     font-size: 1.33333333em;
     line-height: .75em;

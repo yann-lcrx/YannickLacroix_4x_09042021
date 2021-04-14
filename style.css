@@ -239,6 +239,7 @@ a:hover {
 .d-bloc .panel .a-btn:hover,
 .l-bloc .a-btn:hover,
 .l-bloc .navbar a:hover,
+.l-bloc .navbar a:focus,
 .l-bloc .navbar-brand:hover,
 .l-bloc a:hover .icon-sm,
 .l-bloc a:hover .icon-md,
@@ -743,7 +744,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
-    padding: 2px;
+    padding: 5px;
 }
 
 .portfolio-row {
@@ -756,7 +757,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(78, 56, 32, 0.85);
     padding: 40px 40px 40px 40px;
 }
 
